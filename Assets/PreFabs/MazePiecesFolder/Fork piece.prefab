@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2053896551996285448}
   - component: {fileID: 4776528698470318732}
   - component: {fileID: 2683946528734504134}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 2360048739969214612}
   - component: {fileID: 7546604204527745541}
   - component: {fileID: 9064078794148217855}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -277,7 +277,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1202951081297231109}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fork piece
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,7 +314,7 @@ GameObject:
   - component: {fileID: 8634131716703222104}
   - component: {fileID: 4019291444508752275}
   - component: {fileID: 1884319172516800579}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 2642987232540351109}
   - component: {fileID: 606085993655804103}
   - component: {fileID: 8042623396258461482}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7797682352531810562}
   - component: {fileID: 1353054451509048889}
   - component: {fileID: 3219023866514731170}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -143,7 +143,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1259101305738734747}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L piece-Long
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 5927973636875269946}
   - component: {fileID: 2765766341528313989}
   - component: {fileID: 1589788952921368057}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
