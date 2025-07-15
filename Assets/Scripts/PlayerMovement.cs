@@ -1,41 +1,76 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class GridPlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    public Transform movePoint;
+    public float moveTime = 0.2f;
+    public LayerMask obstacleLayer;
+    public GameObject trailPrefab; // Assign your trail prefab here
 
-    public LayerMask whatStopsMovement;
+    private bool isMoving = false;
+    private Vector2 targetPosition;
 
-    
     void Start()
     {
-        movePoint.parent = null;
+        targetPosition = transform.position;
     }
 
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, movePoint.position, moveSpeed * Time.deltaTime);
-
-        if (Vector3.Distance(transform.position, movePoint.position) <= .05f)
+        if (!isMoving)
         {
-            if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1f)
-            {
-                if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, whatStopsMovement))
-                {
-                    movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
-                }
-            }
+            Vector2 input = Vector2.zero;
 
-            if (Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1f)
+            if (Input.GetKeyDown(KeyCode.W)) input = Vector2.up;
+            else if (Input.GetKeyDown(KeyCode.S)) input = Vector2.down;
+            else if (Input.GetKeyDown(KeyCode.A)) input = Vector2.left;
+            else if (Input.GetKeyDown(KeyCode.D)) input = Vector2.right;
+
+            if (input != Vector2.zero)
             {
-                if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, whatStopsMovement))
+                Vector2 newPosition = targetPosition + input;
+
+                if (!IsBlocked(newPosition))
                 {
-                    movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
+                    StartCoroutine(MoveToPosition(newPosition));
+                }
+
+                else
+                {
+                    Debug.Log("Blocked at: " + newPosition);
                 }
             }
         }
     }
+
+    System.Collections.IEnumerator MoveToPosition(Vector2 newPosition)
+    {
+        isMoving = true;
+        Vector2 start = transform.position;
+        float elapsed = 0f;
+
+        while (elapsed < moveTime)
+        {
+            transform.position = Vector2.Lerp(start, newPosition, elapsed / moveTime);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        transform.position = newPosition;
+
+        // ✅ Spawn trail at the previous position (rounded to grid)
+        if (trailPrefab != null)
+        {
+            Vector2 roundedPos = new Vector2(start.x, start.y);
+            Instantiate(trailPrefab, roundedPos, Quaternion.identity);
+        }
+
+        targetPosition = newPosition;
+        isMoving = false;
+    }
+
+    private bool IsBlocked(Vector2 position)
+    {
+        return Physics2D.OverlapCircle(position, 0.1f, obstacleLayer) != null;
+    }
 }
+
