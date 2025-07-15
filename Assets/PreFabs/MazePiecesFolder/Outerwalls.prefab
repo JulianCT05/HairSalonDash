@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3588196721506780306}
   - component: {fileID: 6016771183564116667}
   - component: {fileID: 4788547228290318240}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: OuterWallL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 594456284125124065}
   - component: {fileID: 4101848816270238412}
   - component: {fileID: 3268697417109517690}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: OuterWallT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -279,7 +279,7 @@ GameObject:
   - component: {fileID: 5186917288466069372}
   - component: {fileID: 5179112620968513125}
   - component: {fileID: 2103141728816312046}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: OuterWallR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -411,7 +411,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9030519427189963499}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Outerwalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 5565242715232145194}
   - component: {fileID: 5363461236780728639}
   - component: {fileID: 7757034000837661534}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: OuterwallB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
