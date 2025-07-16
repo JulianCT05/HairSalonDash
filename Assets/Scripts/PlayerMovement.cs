@@ -1,13 +1,17 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;  
 
 public class GridPlayerMovement : MonoBehaviour
 {
     public float moveTime = 0.2f;
     public LayerMask obstacleLayer;
-    public GameObject trailPrefab; // Assign your trail prefab here
+    public int moveCount = 0;
+    public GameObject trailPrefab;
 
     private bool isMoving = false;
     private Vector2 targetPosition;
+
+    private bool gameOverTriggered = false;  
 
     void Start()
     {
@@ -33,7 +37,6 @@ public class GridPlayerMovement : MonoBehaviour
                 {
                     StartCoroutine(MoveToPosition(newPosition));
                 }
-
                 else
                 {
                     Debug.Log("Blocked at: " + newPosition);
@@ -57,12 +60,14 @@ public class GridPlayerMovement : MonoBehaviour
 
         transform.position = newPosition;
 
-        // ✅ Spawn trail at the previous position (rounded to grid)
         if (trailPrefab != null)
         {
             Vector2 roundedPos = new Vector2(start.x, start.y);
             Instantiate(trailPrefab, roundedPos, Quaternion.identity);
         }
+
+        moveCount++;
+        Debug.Log("Moves made: " + moveCount);
 
         targetPosition = newPosition;
         isMoving = false;
@@ -72,5 +77,31 @@ public class GridPlayerMovement : MonoBehaviour
     {
         return Physics2D.OverlapCircle(position, 0.1f, obstacleLayer) != null;
     }
-}
 
+ 
+    private void OnTriggerEnter2D(Collider2D other)   // NEW
+    {
+    
+        if (other.CompareTag("Collectable"))
+        {
+        
+            Destroy(other.gameObject);
+            return;
+        }
+
+        
+        if (other.CompareTag("Hair"))
+        {
+            TriggerGameOver();
+        }
+    }
+
+ 
+    private void TriggerGameOver() 
+    {
+        if (gameOverTriggered) return;
+        gameOverTriggered = true;
+        Debug.Log("Player stepped on hair. Loading GameOver scene...");
+        SceneManager.LoadScene("GameOver");
+    }
+}

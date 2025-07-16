@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 1440584}
   - component: {fileID: 1440586}
   - component: {fileID: 1440585}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (306)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 3077814}
   - component: {fileID: 3077813}
   - component: {fileID: 3077815}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -398,7 +398,7 @@ GameObject:
   - component: {fileID: 3409212}
   - component: {fileID: 3409211}
   - component: {fileID: 3409213}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (180)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -531,6 +531,8 @@ GameObject:
   m_Component:
   - component: {fileID: 13685050}
   - component: {fileID: 13685051}
+  - component: {fileID: 13685052}
+  - component: {fileID: 13685053}
   m_Layer: 0
   m_Name: END
   m_TagString: Untagged
@@ -608,6 +610,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &13685052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13685049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2737491391975e84698f1e0cb227b04c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &13685053
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13685049}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &15321256
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,7 +679,7 @@ GameObject:
   - component: {fileID: 15321258}
   - component: {fileID: 15321257}
   - component: {fileID: 15321259}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (202)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -840,7 +900,7 @@ GameObject:
   - component: {fileID: 19774234}
   - component: {fileID: 19774233}
   - component: {fileID: 19774235}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (223)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -974,7 +1034,7 @@ GameObject:
   - component: {fileID: 19912559}
   - component: {fileID: 19912558}
   - component: {fileID: 19912560}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (91)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1108,7 +1168,7 @@ GameObject:
   - component: {fileID: 36564724}
   - component: {fileID: 36564723}
   - component: {fileID: 36564725}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (171)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1242,7 +1302,7 @@ GameObject:
   - component: {fileID: 37741572}
   - component: {fileID: 37741574}
   - component: {fileID: 37741573}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (314)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1376,7 +1436,7 @@ GameObject:
   - component: {fileID: 40137736}
   - component: {fileID: 40137735}
   - component: {fileID: 40137737}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (169)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1510,7 +1570,7 @@ GameObject:
   - component: {fileID: 44751390}
   - component: {fileID: 44751389}
   - component: {fileID: 44751391}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (136)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1644,7 +1704,7 @@ GameObject:
   - component: {fileID: 65054772}
   - component: {fileID: 65054771}
   - component: {fileID: 65054773}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (167)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1856,7 +1916,7 @@ GameObject:
   - component: {fileID: 70162028}
   - component: {fileID: 70162027}
   - component: {fileID: 70162029}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1990,7 +2050,7 @@ GameObject:
   - component: {fileID: 76279172}
   - component: {fileID: 76279174}
   - component: {fileID: 76279173}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (322)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2124,7 +2184,7 @@ GameObject:
   - component: {fileID: 78492277}
   - component: {fileID: 78492276}
   - component: {fileID: 78492278}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2258,7 +2318,7 @@ GameObject:
   - component: {fileID: 85893624}
   - component: {fileID: 85893623}
   - component: {fileID: 85893625}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (83)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2479,7 +2539,7 @@ GameObject:
   - component: {fileID: 100120655}
   - component: {fileID: 100120654}
   - component: {fileID: 100120656}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (213)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2613,7 +2673,7 @@ GameObject:
   - component: {fileID: 110424349}
   - component: {fileID: 110424348}
   - component: {fileID: 110424350}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2747,7 +2807,7 @@ GameObject:
   - component: {fileID: 118396023}
   - component: {fileID: 118396022}
   - component: {fileID: 118396024}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2881,7 +2941,7 @@ GameObject:
   - component: {fileID: 121778466}
   - component: {fileID: 121778465}
   - component: {fileID: 121778467}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (207)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3004,6 +3064,11 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.18, y: 0.18}
   m_EdgeRadius: 0
+--- !u!1 &122126853 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2199749917430148178, guid: 0e903befbd659614795c2ee645aae15e, type: 3}
+  m_PrefabInstance: {fileID: 9005978420039351220}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &124358936
 GameObject:
   m_ObjectHideFlags: 0
@@ -3015,7 +3080,7 @@ GameObject:
   - component: {fileID: 124358938}
   - component: {fileID: 124358937}
   - component: {fileID: 124358939}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3149,7 +3214,7 @@ GameObject:
   - component: {fileID: 127423363}
   - component: {fileID: 127423362}
   - component: {fileID: 127423364}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (225)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3283,7 +3348,7 @@ GameObject:
   - component: {fileID: 133562755}
   - component: {fileID: 133562754}
   - component: {fileID: 133562756}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (260)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3417,7 +3482,7 @@ GameObject:
   - component: {fileID: 135003170}
   - component: {fileID: 135003169}
   - component: {fileID: 135003171}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (90)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3551,7 +3616,7 @@ GameObject:
   - component: {fileID: 141493939}
   - component: {fileID: 141493938}
   - component: {fileID: 141493940}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (196)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3685,7 +3750,7 @@ GameObject:
   - component: {fileID: 146189317}
   - component: {fileID: 146189316}
   - component: {fileID: 146189318}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3818,7 +3883,7 @@ GameObject:
   m_Component:
   - component: {fileID: 149271825}
   - component: {fileID: 149271824}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Doctor's Office
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3906,7 +3971,7 @@ GameObject:
   - component: {fileID: 150917195}
   - component: {fileID: 150917197}
   - component: {fileID: 150917196}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (294)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4040,7 +4105,7 @@ GameObject:
   - component: {fileID: 161950012}
   - component: {fileID: 161950014}
   - component: {fileID: 161950013}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (326)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4261,7 +4326,7 @@ GameObject:
   - component: {fileID: 176357388}
   - component: {fileID: 176357387}
   - component: {fileID: 176357389}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (156)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4394,7 +4459,7 @@ GameObject:
   m_Component:
   - component: {fileID: 188080585}
   - component: {fileID: 188080584}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Doctor's Office
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4482,7 +4547,7 @@ GameObject:
   - component: {fileID: 190524749}
   - component: {fileID: 190524748}
   - component: {fileID: 190524750}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (278)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4616,7 +4681,7 @@ GameObject:
   - component: {fileID: 197980765}
   - component: {fileID: 197980764}
   - component: {fileID: 197980766}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4750,7 +4815,7 @@ GameObject:
   - component: {fileID: 201708486}
   - component: {fileID: 201708488}
   - component: {fileID: 201708487}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (298)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4884,7 +4949,7 @@ GameObject:
   - component: {fileID: 204344206}
   - component: {fileID: 204344205}
   - component: {fileID: 204344207}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5018,7 +5083,7 @@ GameObject:
   - component: {fileID: 218674011}
   - component: {fileID: 218674010}
   - component: {fileID: 218674012}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (166)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5152,7 +5217,7 @@ GameObject:
   - component: {fileID: 241102092}
   - component: {fileID: 241102091}
   - component: {fileID: 241102093}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5286,7 +5351,7 @@ GameObject:
   - component: {fileID: 244723597}
   - component: {fileID: 244723599}
   - component: {fileID: 244723598}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (304)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5420,7 +5485,7 @@ GameObject:
   - component: {fileID: 251916939}
   - component: {fileID: 251916938}
   - component: {fileID: 251916940}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (176)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5554,7 +5619,7 @@ GameObject:
   - component: {fileID: 254925246}
   - component: {fileID: 254925245}
   - component: {fileID: 254925247}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (96)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5688,7 +5753,7 @@ GameObject:
   - component: {fileID: 271911233}
   - component: {fileID: 271911232}
   - component: {fileID: 271911234}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (86)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5822,7 +5887,7 @@ GameObject:
   - component: {fileID: 272251903}
   - component: {fileID: 272251902}
   - component: {fileID: 272251904}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5945,6 +6010,69 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.18, y: 0.18}
   m_EdgeRadius: 0
+--- !u!1 &276092305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 276092307}
+  - component: {fileID: 276092306}
+  - component: {fileID: 276092308}
+  m_Layer: 0
+  m_Name: CollectableManger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &276092306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276092305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 984a78941b51d0b42b59ab58ff158e0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectedItemSlots:
+  - {fileID: 506772064407139741}
+  - {fileID: 5346893470273429835}
+  requiredItemCount: 2
+--- !u!4 &276092307
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276092305}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.94506353, y: 2.3965747, z: 1787.0068}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &276092308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276092305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab068af42b764424c9b2ac9ab3c4d8f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerCircle: {fileID: 848137839}
+  duration: 200
 --- !u!1 &281024440
 GameObject:
   m_ObjectHideFlags: 0
@@ -6130,7 +6258,7 @@ GameObject:
   - component: {fileID: 296571977}
   - component: {fileID: 296571976}
   - component: {fileID: 296571978}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (201)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6264,7 +6392,7 @@ GameObject:
   - component: {fileID: 304630970}
   - component: {fileID: 304630972}
   - component: {fileID: 304630971}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (286)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6398,7 +6526,7 @@ GameObject:
   - component: {fileID: 308807727}
   - component: {fileID: 308807726}
   - component: {fileID: 308807728}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (190)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6532,7 +6660,7 @@ GameObject:
   - component: {fileID: 311727585}
   - component: {fileID: 311727584}
   - component: {fileID: 311727586}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (263)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6665,7 +6793,7 @@ GameObject:
   m_Component:
   - component: {fileID: 322242147}
   - component: {fileID: 322242146}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trash Can
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6753,7 +6881,7 @@ GameObject:
   - component: {fileID: 323342128}
   - component: {fileID: 323342127}
   - component: {fileID: 323342129}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6887,7 +7015,7 @@ GameObject:
   - component: {fileID: 326156697}
   - component: {fileID: 326156696}
   - component: {fileID: 326156698}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (239)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7021,7 +7149,7 @@ GameObject:
   - component: {fileID: 327643658}
   - component: {fileID: 327643657}
   - component: {fileID: 327643659}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7155,7 +7283,7 @@ GameObject:
   - component: {fileID: 330075184}
   - component: {fileID: 330075186}
   - component: {fileID: 330075185}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (330)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7288,7 +7416,7 @@ GameObject:
   m_Component:
   - component: {fileID: 346622305}
   - component: {fileID: 346622304}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Store (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7376,7 +7504,7 @@ GameObject:
   - component: {fileID: 348659736}
   - component: {fileID: 348659735}
   - component: {fileID: 348659737}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (77)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7499,37 +7627,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.18, y: 0.18}
   m_EdgeRadius: 0
---- !u!1 &350262128
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 350262129}
-  m_Layer: 0
-  m_Name: Spawner (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &350262129
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 350262128}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -24.51, y: 11.45, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 413381905}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &356739117
 GameObject:
   m_ObjectHideFlags: 0
@@ -7541,7 +7638,7 @@ GameObject:
   - component: {fileID: 356739119}
   - component: {fileID: 356739118}
   - component: {fileID: 356739120}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (99)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7675,7 +7772,7 @@ GameObject:
   - component: {fileID: 360142427}
   - component: {fileID: 360142426}
   - component: {fileID: 360142428}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (158)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7809,7 +7906,7 @@ GameObject:
   - component: {fileID: 361430526}
   - component: {fileID: 361430525}
   - component: {fileID: 361430527}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (280)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8030,7 +8127,7 @@ GameObject:
   - component: {fileID: 362490712}
   - component: {fileID: 362490711}
   - component: {fileID: 362490713}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8164,7 +8261,7 @@ GameObject:
   - component: {fileID: 365060390}
   - component: {fileID: 365060389}
   - component: {fileID: 365060391}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (112)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8297,7 +8394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 366903104}
   - component: {fileID: 366903103}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Store (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8385,7 +8482,7 @@ GameObject:
   - component: {fileID: 370371308}
   - component: {fileID: 370371310}
   - component: {fileID: 370371309}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (282)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8519,7 +8616,7 @@ GameObject:
   - component: {fileID: 375280632}
   - component: {fileID: 375280631}
   - component: {fileID: 375280633}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (244)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8653,7 +8750,7 @@ GameObject:
   - component: {fileID: 379080743}
   - component: {fileID: 379080742}
   - component: {fileID: 379080744}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (267)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8787,7 +8884,7 @@ GameObject:
   - component: {fileID: 384005948}
   - component: {fileID: 384005947}
   - component: {fileID: 384005949}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (141)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8921,7 +9018,7 @@ GameObject:
   - component: {fileID: 394378816}
   - component: {fileID: 394378815}
   - component: {fileID: 394378817}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9055,7 +9152,7 @@ GameObject:
   - component: {fileID: 395308692}
   - component: {fileID: 395308691}
   - component: {fileID: 395308690}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Apartment (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9189,7 +9286,7 @@ GameObject:
   - component: {fileID: 401530566}
   - component: {fileID: 401530565}
   - component: {fileID: 401530567}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (216)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9312,62 +9409,11 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.18, y: 0.18}
   m_EdgeRadius: 0
---- !u!1 &413381904
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 413381905}
-  - component: {fileID: 413381906}
-  m_Layer: 0
-  m_Name: SpawnPoints
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &413381905
+--- !u!4 &413381905 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 3938515372515600847, guid: 94d7faf4b526ec24dbcebc9b39b072bf, type: 3}
+  m_PrefabInstance: {fileID: 238804619921872656}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 413381904}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2067058714}
-  - {fileID: 350262129}
-  - {fileID: 1514859193}
-  - {fileID: 1606915698}
-  m_Father: {fileID: 467505917}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &413381906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 413381904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1c7f9a7fc5cfb1478b42f930663cbe5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 2067058714}
-  - {fileID: 350262129}
-  - {fileID: 1514859193}
-  - {fileID: 1606915698}
-  itemPrefabs:
-  - {fileID: 7561919508110215828, guid: 02a6bffd577ba0545837dc27de81a1f3, type: 3}
-  - {fileID: 8965304535171285244, guid: 19d72cb19c0a694408ae610555f6e3c0, type: 3}
 --- !u!1 &414595174
 GameObject:
   m_ObjectHideFlags: 0
@@ -9379,7 +9425,7 @@ GameObject:
   - component: {fileID: 414595176}
   - component: {fileID: 414595175}
   - component: {fileID: 414595177}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9687,7 +9733,7 @@ GameObject:
   - component: {fileID: 432041842}
   - component: {fileID: 432041841}
   - component: {fileID: 432041843}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (221)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9821,7 +9867,7 @@ GameObject:
   - component: {fileID: 434040900}
   - component: {fileID: 434040899}
   - component: {fileID: 434040901}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (185)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9955,7 +10001,7 @@ GameObject:
   - component: {fileID: 438822843}
   - component: {fileID: 438822842}
   - component: {fileID: 438822844}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (95)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10089,7 +10135,7 @@ GameObject:
   - component: {fileID: 443842314}
   - component: {fileID: 443842313}
   - component: {fileID: 443842315}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10223,7 +10269,7 @@ GameObject:
   - component: {fileID: 450489902}
   - component: {fileID: 450489901}
   - component: {fileID: 450489903}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (277)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10486,7 +10532,6 @@ Transform:
   - {fileID: 1482534626}
   - {fileID: 67680441}
   - {fileID: 895876202086254495}
-  - {fileID: 1463644912}
   - {fileID: 13685050}
   - {fileID: 585172242}
   - {fileID: 1225526661}
@@ -10505,7 +10550,7 @@ GameObject:
   - component: {fileID: 467687809}
   - component: {fileID: 467687808}
   - component: {fileID: 467687810}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (249)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10639,7 +10684,7 @@ GameObject:
   - component: {fileID: 468292974}
   - component: {fileID: 468292973}
   - component: {fileID: 468292975}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10773,7 +10818,7 @@ GameObject:
   - component: {fileID: 473802587}
   - component: {fileID: 473802586}
   - component: {fileID: 473802588}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (94)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10907,7 +10952,7 @@ GameObject:
   - component: {fileID: 473946622}
   - component: {fileID: 473946624}
   - component: {fileID: 473946623}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (301)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11041,7 +11086,7 @@ GameObject:
   - component: {fileID: 478771769}
   - component: {fileID: 478771768}
   - component: {fileID: 478771770}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (198)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11175,7 +11220,7 @@ GameObject:
   - component: {fileID: 482016547}
   - component: {fileID: 482016546}
   - component: {fileID: 482016548}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (254)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11309,7 +11354,7 @@ GameObject:
   - component: {fileID: 486635962}
   - component: {fileID: 486635961}
   - component: {fileID: 486635963}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11530,7 +11575,7 @@ GameObject:
   - component: {fileID: 498594300}
   - component: {fileID: 498594299}
   - component: {fileID: 498594301}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (123)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11664,7 +11709,7 @@ GameObject:
   - component: {fileID: 500696540}
   - component: {fileID: 500696539}
   - component: {fileID: 500696541}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (224)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11798,7 +11843,7 @@ GameObject:
   - component: {fileID: 505673997}
   - component: {fileID: 505673996}
   - component: {fileID: 505673998}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (230)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11932,7 +11977,7 @@ GameObject:
   - component: {fileID: 508242207}
   - component: {fileID: 508242209}
   - component: {fileID: 508242208}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (285)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12066,7 +12111,7 @@ GameObject:
   - component: {fileID: 510701126}
   - component: {fileID: 510701128}
   - component: {fileID: 510701127}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (296)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12276,85 +12321,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &524613957
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 524613960}
-  - component: {fileID: 524613959}
-  - component: {fileID: 524613958}
-  m_Layer: 0
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &524613958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524613957}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_MoveRepeatDelay: 0.5
-  m_MoveRepeatRate: 0.1
-  m_XRTrackingOrigin: {fileID: 0}
-  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_DeselectOnBackgroundClick: 1
-  m_PointerBehavior: 0
-  m_CursorLockBehavior: 0
-  m_ScrollDeltaPerTick: 6
---- !u!114 &524613959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524613957}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &524613960
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524613957}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &526189749
 GameObject:
   m_ObjectHideFlags: 0
@@ -12366,7 +12332,7 @@ GameObject:
   - component: {fileID: 526189750}
   - component: {fileID: 526189752}
   - component: {fileID: 526189751}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (305)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12500,7 +12466,7 @@ GameObject:
   - component: {fileID: 530662497}
   - component: {fileID: 530662496}
   - component: {fileID: 530662498}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (200)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12634,7 +12600,7 @@ GameObject:
   - component: {fileID: 530972901}
   - component: {fileID: 530972900}
   - component: {fileID: 530972902}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (205)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12855,7 +12821,7 @@ GameObject:
   - component: {fileID: 541071880}
   - component: {fileID: 541071879}
   - component: {fileID: 541071881}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12988,7 +12954,7 @@ GameObject:
   m_Component:
   - component: {fileID: 545142658}
   - component: {fileID: 545142657}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Doctor's Office
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13076,7 +13042,7 @@ GameObject:
   - component: {fileID: 553887946}
   - component: {fileID: 553887945}
   - component: {fileID: 553887947}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (234)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13210,7 +13176,7 @@ GameObject:
   - component: {fileID: 554348582}
   - component: {fileID: 554348581}
   - component: {fileID: 554348583}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13343,7 +13309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 567410492}
   - component: {fileID: 567410491}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bank (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13431,7 +13397,7 @@ GameObject:
   - component: {fileID: 576340066}
   - component: {fileID: 576340065}
   - component: {fileID: 576340067}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (231)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13565,7 +13531,7 @@ GameObject:
   - component: {fileID: 581980107}
   - component: {fileID: 581980106}
   - component: {fileID: 581980108}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13699,7 +13665,7 @@ GameObject:
   - component: {fileID: 584020336}
   - component: {fileID: 584020335}
   - component: {fileID: 584020337}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (191)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13834,7 +13800,7 @@ GameObject:
   - component: {fileID: 585172243}
   m_Layer: 6
   m_Name: InnerWalls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13946,7 +13912,7 @@ GameObject:
   - component: {fileID: 586023237}
   - component: {fileID: 586023236}
   - component: {fileID: 586023238}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14080,7 +14046,7 @@ GameObject:
   - component: {fileID: 594992633}
   - component: {fileID: 594992632}
   - component: {fileID: 594992634}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (125)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14214,7 +14180,7 @@ GameObject:
   - component: {fileID: 602570682}
   - component: {fileID: 602570684}
   - component: {fileID: 602570683}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (300)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14347,7 +14313,7 @@ GameObject:
   m_Component:
   - component: {fileID: 603672189}
   - component: {fileID: 603672188}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trash Can (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14434,7 +14400,7 @@ GameObject:
   m_Component:
   - component: {fileID: 606127000}
   - component: {fileID: 606126999}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trash Can (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14522,7 +14488,7 @@ GameObject:
   - component: {fileID: 608328411}
   - component: {fileID: 608328410}
   - component: {fileID: 608328412}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14656,7 +14622,7 @@ GameObject:
   - component: {fileID: 608864760}
   - component: {fileID: 608864759}
   - component: {fileID: 608864761}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14790,7 +14756,7 @@ GameObject:
   - component: {fileID: 609284925}
   - component: {fileID: 609284924}
   - component: {fileID: 609284926}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (251)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15008,7 +14974,7 @@ GameObject:
   - component: {fileID: 651314654}
   - component: {fileID: 651314656}
   - component: {fileID: 651314655}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (319)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15142,7 +15108,7 @@ GameObject:
   - component: {fileID: 656926539}
   - component: {fileID: 656926538}
   - component: {fileID: 656926540}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15276,7 +15242,7 @@ GameObject:
   - component: {fileID: 657123054}
   - component: {fileID: 657123053}
   - component: {fileID: 657123055}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (265)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15410,7 +15376,7 @@ GameObject:
   - component: {fileID: 657751220}
   - component: {fileID: 657751222}
   - component: {fileID: 657751221}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (313)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15544,7 +15510,7 @@ GameObject:
   - component: {fileID: 659035940}
   - component: {fileID: 659035939}
   - component: {fileID: 659035941}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (126)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15678,7 +15644,7 @@ GameObject:
   - component: {fileID: 659310350}
   - component: {fileID: 659310349}
   - component: {fileID: 659310351}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15812,7 +15778,7 @@ GameObject:
   - component: {fileID: 660058064}
   - component: {fileID: 660058063}
   - component: {fileID: 660058065}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (215)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16033,7 +15999,7 @@ GameObject:
   - component: {fileID: 674817367}
   - component: {fileID: 674817366}
   - component: {fileID: 674817368}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (118)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16167,7 +16133,7 @@ GameObject:
   - component: {fileID: 677567853}
   - component: {fileID: 677567852}
   - component: {fileID: 677567854}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16301,7 +16267,7 @@ GameObject:
   - component: {fileID: 680328287}
   - component: {fileID: 680328286}
   - component: {fileID: 680328288}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (92)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16435,7 +16401,7 @@ GameObject:
   - component: {fileID: 682131428}
   - component: {fileID: 682131427}
   - component: {fileID: 682131429}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (117)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16656,7 +16622,7 @@ GameObject:
   - component: {fileID: 686468699}
   - component: {fileID: 686468698}
   - component: {fileID: 686468700}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (140)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16790,7 +16756,7 @@ GameObject:
   - component: {fileID: 689135338}
   - component: {fileID: 689135337}
   - component: {fileID: 689135339}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (209)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16924,7 +16890,7 @@ GameObject:
   - component: {fileID: 698417971}
   - component: {fileID: 698417970}
   - component: {fileID: 698417972}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (208)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17058,7 +17024,7 @@ GameObject:
   - component: {fileID: 703070066}
   - component: {fileID: 703070065}
   - component: {fileID: 703070067}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (268)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17192,7 +17158,7 @@ GameObject:
   - component: {fileID: 703762150}
   - component: {fileID: 703762149}
   - component: {fileID: 703762151}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17326,7 +17292,7 @@ GameObject:
   - component: {fileID: 717731117}
   - component: {fileID: 717731119}
   - component: {fileID: 717731118}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (295)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17461,7 +17427,7 @@ GameObject:
   - component: {fileID: 720046181}
   m_Layer: 6
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17547,7 +17513,7 @@ GameObject:
   - component: {fileID: 720358325}
   - component: {fileID: 720358324}
   - component: {fileID: 720358326}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (183)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17681,7 +17647,7 @@ GameObject:
   - component: {fileID: 723421448}
   - component: {fileID: 723421447}
   - component: {fileID: 723421449}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (222)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17814,7 +17780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 728041156}
   - component: {fileID: 728041155}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17902,7 +17868,7 @@ GameObject:
   - component: {fileID: 741248486}
   - component: {fileID: 741248485}
   - component: {fileID: 741248487}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18036,7 +18002,7 @@ GameObject:
   - component: {fileID: 745061345}
   - component: {fileID: 745061344}
   - component: {fileID: 745061346}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (220)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18257,7 +18223,7 @@ GameObject:
   - component: {fileID: 750865229}
   - component: {fileID: 750865231}
   - component: {fileID: 750865230}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (290)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18391,7 +18357,7 @@ GameObject:
   - component: {fileID: 752187417}
   - component: {fileID: 752187416}
   - component: {fileID: 752187418}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18525,7 +18491,7 @@ GameObject:
   - component: {fileID: 753742524}
   - component: {fileID: 753742523}
   - component: {fileID: 753742525}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (163)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18659,7 +18625,7 @@ GameObject:
   - component: {fileID: 754053005}
   - component: {fileID: 754053004}
   - component: {fileID: 754053006}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (206)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18793,7 +18759,7 @@ GameObject:
   - component: {fileID: 756138256}
   - component: {fileID: 756138258}
   - component: {fileID: 756138257}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (325)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18927,7 +18893,7 @@ GameObject:
   - component: {fileID: 756921328}
   - component: {fileID: 756921327}
   - component: {fileID: 756921326}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fire Hydrant (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19061,7 +19027,7 @@ GameObject:
   - component: {fileID: 759454762}
   - component: {fileID: 759454761}
   - component: {fileID: 759454763}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (146)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19195,7 +19161,7 @@ GameObject:
   - component: {fileID: 771166946}
   - component: {fileID: 771166945}
   - component: {fileID: 771166947}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (270)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19391,7 +19357,7 @@ GameObject:
   - component: {fileID: 786040633}
   - component: {fileID: 786040632}
   - component: {fileID: 786040634}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (181)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19525,7 +19491,7 @@ GameObject:
   - component: {fileID: 792604547}
   - component: {fileID: 792604546}
   - component: {fileID: 792604548}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (177)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19659,7 +19625,7 @@ GameObject:
   - component: {fileID: 793052882}
   - component: {fileID: 793052881}
   - component: {fileID: 793052883}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19793,7 +19759,7 @@ GameObject:
   - component: {fileID: 804830909}
   - component: {fileID: 804830908}
   - component: {fileID: 804830910}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19927,7 +19893,7 @@ GameObject:
   - component: {fileID: 806365444}
   - component: {fileID: 806365443}
   - component: {fileID: 806365445}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (226)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20061,7 +20027,7 @@ GameObject:
   - component: {fileID: 807320096}
   - component: {fileID: 807320095}
   - component: {fileID: 807320097}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (160)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20195,7 +20161,7 @@ GameObject:
   - component: {fileID: 808314740}
   - component: {fileID: 808314739}
   - component: {fileID: 808314741}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (79)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20328,7 +20294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 808906057}
   - component: {fileID: 808906056}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Store (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20416,7 +20382,7 @@ GameObject:
   - component: {fileID: 809523976}
   - component: {fileID: 809523978}
   - component: {fileID: 809523977}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (310)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20550,7 +20516,7 @@ GameObject:
   - component: {fileID: 817945095}
   - component: {fileID: 817945094}
   - component: {fileID: 817945096}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (165)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20684,7 +20650,7 @@ GameObject:
   - component: {fileID: 820798601}
   - component: {fileID: 820798600}
   - component: {fileID: 820798599}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Apartment (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20818,7 +20784,7 @@ GameObject:
   - component: {fileID: 823260373}
   - component: {fileID: 823260372}
   - component: {fileID: 823260374}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (144)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20952,7 +20918,7 @@ GameObject:
   - component: {fileID: 830097103}
   - component: {fileID: 830097102}
   - component: {fileID: 830097104}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (259)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21086,7 +21052,7 @@ GameObject:
   - component: {fileID: 830104969}
   - component: {fileID: 830104968}
   - component: {fileID: 830104970}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (227)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21219,7 +21185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 833309668}
   - component: {fileID: 833309667}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Traffic Cone (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21307,7 +21273,7 @@ GameObject:
   - component: {fileID: 834290687}
   - component: {fileID: 834290686}
   - component: {fileID: 834290688}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21441,7 +21407,7 @@ GameObject:
   - component: {fileID: 837306843}
   - component: {fileID: 837306842}
   - component: {fileID: 837306841}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Salon (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21564,6 +21530,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 866877968}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!20 &844864665 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 4780919855301696794, guid: 0e903befbd659614795c2ee645aae15e, type: 3}
+  m_PrefabInstance: {fileID: 9005978420039351220}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &848137839 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 159235948653433072, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+  m_PrefabInstance: {fileID: 8687778456303122137}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &851379828
 GameObject:
   m_ObjectHideFlags: 0
@@ -21575,7 +21557,7 @@ GameObject:
   - component: {fileID: 851379829}
   - component: {fileID: 851379831}
   - component: {fileID: 851379830}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (307)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21709,7 +21691,7 @@ GameObject:
   - component: {fileID: 855338217}
   - component: {fileID: 855338219}
   - component: {fileID: 855338218}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (328)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21843,7 +21825,7 @@ GameObject:
   - component: {fileID: 864240948}
   - component: {fileID: 864240947}
   - component: {fileID: 864240949}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (279)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21975,7 +21957,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 866877968}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OutsideThings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22021,7 +22003,6 @@ Transform:
   - {fileID: 1169878655}
   - {fileID: 346622305}
   - {fileID: 808906057}
-  - {fileID: 1011646120}
   - {fileID: 366903104}
   - {fileID: 545142658}
   - {fileID: 188080585}
@@ -22046,7 +22027,7 @@ GameObject:
   - component: {fileID: 870255902}
   - component: {fileID: 870255901}
   - component: {fileID: 870255903}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (76)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22180,7 +22161,7 @@ GameObject:
   - component: {fileID: 873244665}
   - component: {fileID: 873244664}
   - component: {fileID: 873244666}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (188)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22314,7 +22295,7 @@ GameObject:
   - component: {fileID: 873818201}
   - component: {fileID: 873818203}
   - component: {fileID: 873818202}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (309)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22448,7 +22429,7 @@ GameObject:
   - component: {fileID: 873855581}
   - component: {fileID: 873855583}
   - component: {fileID: 873855582}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (287)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22582,7 +22563,7 @@ GameObject:
   - component: {fileID: 876136988}
   - component: {fileID: 876136987}
   - component: {fileID: 876136986}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fire Hydrant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22716,7 +22697,7 @@ GameObject:
   - component: {fileID: 881531542}
   - component: {fileID: 881531541}
   - component: {fileID: 881531543}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (172)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22850,7 +22831,7 @@ GameObject:
   - component: {fileID: 882857345}
   - component: {fileID: 882857344}
   - component: {fileID: 882857346}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (243)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22984,7 +22965,7 @@ GameObject:
   - component: {fileID: 889382253}
   - component: {fileID: 889382252}
   - component: {fileID: 889382254}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23118,7 +23099,7 @@ GameObject:
   - component: {fileID: 892243007}
   - component: {fileID: 892243006}
   - component: {fileID: 892243005}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Apartment (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23252,7 +23233,7 @@ GameObject:
   - component: {fileID: 898340044}
   - component: {fileID: 898340043}
   - component: {fileID: 898340045}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (114)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23386,7 +23367,7 @@ GameObject:
   - component: {fileID: 898798902}
   - component: {fileID: 898798901}
   - component: {fileID: 898798903}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23520,7 +23501,7 @@ GameObject:
   - component: {fileID: 900377650}
   - component: {fileID: 900377649}
   - component: {fileID: 900377651}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (257)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23654,7 +23635,7 @@ GameObject:
   - component: {fileID: 904030641}
   - component: {fileID: 904030640}
   - component: {fileID: 904030642}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (276)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23788,7 +23769,7 @@ GameObject:
   - component: {fileID: 904487176}
   - component: {fileID: 904487175}
   - component: {fileID: 904487177}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (107)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23922,7 +23903,7 @@ GameObject:
   - component: {fileID: 912770668}
   - component: {fileID: 912770667}
   - component: {fileID: 912770669}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24056,7 +24037,7 @@ GameObject:
   - component: {fileID: 922203054}
   - component: {fileID: 922203056}
   - component: {fileID: 922203055}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (315)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24189,7 +24170,7 @@ GameObject:
   m_Component:
   - component: {fileID: 924797520}
   - component: {fileID: 924797519}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Traffic Cone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24277,7 +24258,7 @@ GameObject:
   - component: {fileID: 925295251}
   - component: {fileID: 925295250}
   - component: {fileID: 925295252}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (212)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24411,7 +24392,7 @@ GameObject:
   - component: {fileID: 927005410}
   - component: {fileID: 927005409}
   - component: {fileID: 927005411}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (194)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24545,7 +24526,7 @@ GameObject:
   - component: {fileID: 945750167}
   - component: {fileID: 945750166}
   - component: {fileID: 945750168}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (104)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24679,7 +24660,7 @@ GameObject:
   - component: {fileID: 948339038}
   - component: {fileID: 948339037}
   - component: {fileID: 948339039}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24813,7 +24794,7 @@ GameObject:
   - component: {fileID: 951745402}
   - component: {fileID: 951745401}
   - component: {fileID: 951745403}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (111)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24947,7 +24928,7 @@ GameObject:
   - component: {fileID: 957290213}
   - component: {fileID: 957290212}
   - component: {fileID: 957290214}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25081,7 +25062,7 @@ GameObject:
   - component: {fileID: 959282235}
   - component: {fileID: 959282234}
   - component: {fileID: 959282236}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (145)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25215,7 +25196,7 @@ GameObject:
   - component: {fileID: 959411910}
   - component: {fileID: 959411909}
   - component: {fileID: 959411911}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (241)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25349,7 +25330,7 @@ GameObject:
   - component: {fileID: 972801475}
   - component: {fileID: 972801474}
   - component: {fileID: 972801476}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (192)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25483,7 +25464,7 @@ GameObject:
   - component: {fileID: 975673197}
   - component: {fileID: 975673196}
   - component: {fileID: 975673198}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (199)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25617,7 +25598,7 @@ GameObject:
   - component: {fileID: 989039669}
   - component: {fileID: 989039668}
   - component: {fileID: 989039670}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (174)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25751,7 +25732,7 @@ GameObject:
   - component: {fileID: 991422572}
   - component: {fileID: 991422571}
   - component: {fileID: 991422573}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (262)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25885,7 +25866,7 @@ GameObject:
   - component: {fileID: 995647198}
   - component: {fileID: 995647197}
   - component: {fileID: 995647199}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26019,7 +26000,7 @@ GameObject:
   - component: {fileID: 1000291631}
   - component: {fileID: 1000291630}
   - component: {fileID: 1000291632}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (238)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26153,7 +26134,7 @@ GameObject:
   - component: {fileID: 1009535604}
   - component: {fileID: 1009535606}
   - component: {fileID: 1009535605}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (333)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26276,93 +26257,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1011646119
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1011646120}
-  - component: {fileID: 1011646121}
-  m_Layer: 0
-  m_Name: Store (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1011646120
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1011646119}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.70710677, w: 0.7071068}
-  m_LocalPosition: {x: 3.239, y: -1.6950002, z: -0.009387227}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 866877968}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
---- !u!212 &1011646121
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1011646119}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 6053452351487378463, guid: e915eaef16d7245cdb0da5a8e29c49e1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.5, y: 0.44}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1012029053
 GameObject:
   m_ObjectHideFlags: 0
@@ -26374,7 +26268,7 @@ GameObject:
   - component: {fileID: 1012029055}
   - component: {fileID: 1012029054}
   - component: {fileID: 1012029056}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (132)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26595,7 +26489,7 @@ GameObject:
   - component: {fileID: 1029725515}
   - component: {fileID: 1029725514}
   - component: {fileID: 1029725516}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (109)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26729,7 +26623,7 @@ GameObject:
   - component: {fileID: 1033126857}
   - component: {fileID: 1033126856}
   - component: {fileID: 1033126858}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (98)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26863,7 +26757,7 @@ GameObject:
   - component: {fileID: 1037712541}
   - component: {fileID: 1037712540}
   - component: {fileID: 1037712542}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (82)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26996,8 +26890,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1052717231}
   - component: {fileID: 1052717230}
-  - component: {fileID: 1052717232}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27074,52 +26967,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1616887576}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1052717232
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1052717229}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.18, y: 0.18}
-    newSize: {x: 0.18, y: 0.18}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.18, y: 0.18}
-  m_EdgeRadius: 0
 --- !u!1 &1061067252
 GameObject:
   m_ObjectHideFlags: 0
@@ -27131,7 +26978,7 @@ GameObject:
   - component: {fileID: 1061067254}
   - component: {fileID: 1061067253}
   - component: {fileID: 1061067255}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27265,7 +27112,7 @@ GameObject:
   - component: {fileID: 1061235628}
   - component: {fileID: 1061235627}
   - component: {fileID: 1061235629}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27399,7 +27246,7 @@ GameObject:
   - component: {fileID: 1063956712}
   - component: {fileID: 1063956711}
   - component: {fileID: 1063956713}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (186)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27533,7 +27380,7 @@ GameObject:
   - component: {fileID: 1078393436}
   - component: {fileID: 1078393435}
   - component: {fileID: 1078393437}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (245)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27667,7 +27514,7 @@ GameObject:
   - component: {fileID: 1078783902}
   - component: {fileID: 1078783901}
   - component: {fileID: 1078783903}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (80)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27801,7 +27648,7 @@ GameObject:
   - component: {fileID: 1081592305}
   - component: {fileID: 1081592304}
   - component: {fileID: 1081592306}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (264)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27935,7 +27782,7 @@ GameObject:
   - component: {fileID: 1086630869}
   - component: {fileID: 1086630868}
   - component: {fileID: 1086630870}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (214)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28069,7 +27916,7 @@ GameObject:
   - component: {fileID: 1088208450}
   - component: {fileID: 1088208452}
   - component: {fileID: 1088208451}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (318)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28203,7 +28050,7 @@ GameObject:
   - component: {fileID: 1088992138}
   - component: {fileID: 1088992137}
   - component: {fileID: 1088992139}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (182)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28337,7 +28184,7 @@ GameObject:
   - component: {fileID: 1095988367}
   - component: {fileID: 1095988366}
   - component: {fileID: 1095988368}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (228)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28471,7 +28318,7 @@ GameObject:
   - component: {fileID: 1101330923}
   - component: {fileID: 1101330922}
   - component: {fileID: 1101330924}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (116)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28692,7 +28539,7 @@ GameObject:
   - component: {fileID: 1106392743}
   - component: {fileID: 1106392745}
   - component: {fileID: 1106392744}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (320)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28826,7 +28673,7 @@ GameObject:
   - component: {fileID: 1115101568}
   - component: {fileID: 1115101567}
   - component: {fileID: 1115101569}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (147)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28960,7 +28807,7 @@ GameObject:
   - component: {fileID: 1115341043}
   - component: {fileID: 1115341042}
   - component: {fileID: 1115341044}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (149)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29094,7 +28941,7 @@ GameObject:
   - component: {fileID: 1124040617}
   - component: {fileID: 1124040616}
   - component: {fileID: 1124040618}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (103)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29228,7 +29075,7 @@ GameObject:
   - component: {fileID: 1127830451}
   - component: {fileID: 1127830450}
   - component: {fileID: 1127830449}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Salon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29362,7 +29209,7 @@ GameObject:
   - component: {fileID: 1145705440}
   - component: {fileID: 1145705439}
   - component: {fileID: 1145705441}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (106)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29496,7 +29343,7 @@ GameObject:
   - component: {fileID: 1147429994}
   - component: {fileID: 1147429996}
   - component: {fileID: 1147429995}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (324)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29630,7 +29477,7 @@ GameObject:
   - component: {fileID: 1148993578}
   - component: {fileID: 1148993577}
   - component: {fileID: 1148993579}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (88)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29764,7 +29611,7 @@ GameObject:
   - component: {fileID: 1149335076}
   - component: {fileID: 1149335075}
   - component: {fileID: 1149335077}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29898,7 +29745,7 @@ GameObject:
   - component: {fileID: 1150581460}
   - component: {fileID: 1150581459}
   - component: {fileID: 1150581458}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Apartment (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30032,7 +29879,7 @@ GameObject:
   - component: {fileID: 1154487437}
   - component: {fileID: 1154487439}
   - component: {fileID: 1154487438}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (303)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30166,7 +30013,7 @@ GameObject:
   - component: {fileID: 1157437226}
   - component: {fileID: 1157437225}
   - component: {fileID: 1157437227}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (142)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30300,7 +30147,7 @@ GameObject:
   - component: {fileID: 1157733647}
   - component: {fileID: 1157733646}
   - component: {fileID: 1157733648}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (93)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30434,7 +30281,7 @@ GameObject:
   - component: {fileID: 1158251722}
   - component: {fileID: 1158251721}
   - component: {fileID: 1158251723}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30568,7 +30415,7 @@ GameObject:
   - component: {fileID: 1169821329}
   - component: {fileID: 1169821331}
   - component: {fileID: 1169821330}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (292)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30701,7 +30548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1169878655}
   - component: {fileID: 1169878654}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Store
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30789,7 +30636,7 @@ GameObject:
   - component: {fileID: 1174541463}
   - component: {fileID: 1174541462}
   - component: {fileID: 1174541461}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fire Hydrant (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30923,7 +30770,7 @@ GameObject:
   - component: {fileID: 1178802419}
   - component: {fileID: 1178802421}
   - component: {fileID: 1178802420}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (312)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31057,7 +30904,7 @@ GameObject:
   - component: {fileID: 1183759112}
   - component: {fileID: 1183759114}
   - component: {fileID: 1183759113}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (283)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31191,7 +31038,7 @@ GameObject:
   - component: {fileID: 1187030987}
   - component: {fileID: 1187030986}
   - component: {fileID: 1187030988}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (102)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31412,7 +31259,7 @@ GameObject:
   - component: {fileID: 1211944851}
   - component: {fileID: 1211944850}
   - component: {fileID: 1211944852}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (184)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31546,7 +31393,7 @@ GameObject:
   - component: {fileID: 1217376847}
   - component: {fileID: 1217376846}
   - component: {fileID: 1217376848}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31680,7 +31527,7 @@ GameObject:
   - component: {fileID: 1217431372}
   - component: {fileID: 1217431374}
   - component: {fileID: 1217431373}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (331)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31814,7 +31661,7 @@ GameObject:
   - component: {fileID: 1222142645}
   - component: {fileID: 1222142644}
   - component: {fileID: 1222142646}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (256)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32014,7 +31861,7 @@ GameObject:
   - component: {fileID: 1226098971}
   - component: {fileID: 1226098970}
   - component: {fileID: 1226098972}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (154)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32148,7 +31995,7 @@ GameObject:
   - component: {fileID: 1234451333}
   - component: {fileID: 1234451332}
   - component: {fileID: 1234451334}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (74)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32282,7 +32129,7 @@ GameObject:
   - component: {fileID: 1238436038}
   - component: {fileID: 1238436037}
   - component: {fileID: 1238436039}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (193)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32416,7 +32263,7 @@ GameObject:
   - component: {fileID: 1252900652}
   - component: {fileID: 1252900651}
   - component: {fileID: 1252900653}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32635,7 +32482,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1264322455}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32668,7 +32515,7 @@ GameObject:
   - component: {fileID: 1272424296}
   - component: {fileID: 1272424295}
   - component: {fileID: 1272424297}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (143)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32802,7 +32649,7 @@ GameObject:
   - component: {fileID: 1275105280}
   - component: {fileID: 1275105279}
   - component: {fileID: 1275105281}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (81)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32936,7 +32783,7 @@ GameObject:
   - component: {fileID: 1278477219}
   - component: {fileID: 1278477218}
   - component: {fileID: 1278477220}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (175)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33070,7 +32917,7 @@ GameObject:
   - component: {fileID: 1282207367}
   - component: {fileID: 1282207366}
   - component: {fileID: 1282207368}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (210)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33204,7 +33051,7 @@ GameObject:
   - component: {fileID: 1292706812}
   - component: {fileID: 1292706814}
   - component: {fileID: 1292706813}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (329)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33425,7 +33272,7 @@ GameObject:
   - component: {fileID: 1295582232}
   - component: {fileID: 1295582231}
   - component: {fileID: 1295582230}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Apartment (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33646,7 +33493,7 @@ GameObject:
   - component: {fileID: 1302503757}
   - component: {fileID: 1302503759}
   - component: {fileID: 1302503758}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (311)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33780,7 +33627,7 @@ GameObject:
   - component: {fileID: 1309810597}
   - component: {fileID: 1309810596}
   - component: {fileID: 1309810598}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (153)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33914,7 +33761,7 @@ GameObject:
   - component: {fileID: 1320564718}
   - component: {fileID: 1320564720}
   - component: {fileID: 1320564719}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (332)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34048,7 +33895,7 @@ GameObject:
   - component: {fileID: 1322045807}
   - component: {fileID: 1322045806}
   - component: {fileID: 1322045808}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (242)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34182,7 +34029,7 @@ GameObject:
   - component: {fileID: 1325960641}
   - component: {fileID: 1325960640}
   - component: {fileID: 1325960642}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (157)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34316,7 +34163,7 @@ GameObject:
   - component: {fileID: 1327972869}
   - component: {fileID: 1327972868}
   - component: {fileID: 1327972870}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34450,7 +34297,7 @@ GameObject:
   - component: {fileID: 1339291450}
   - component: {fileID: 1339291449}
   - component: {fileID: 1339291451}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (128)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34584,7 +34431,7 @@ GameObject:
   - component: {fileID: 1344310793}
   - component: {fileID: 1344310792}
   - component: {fileID: 1344310794}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34718,7 +34565,7 @@ GameObject:
   - component: {fileID: 1345029454}
   - component: {fileID: 1345029453}
   - component: {fileID: 1345029455}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34852,7 +34699,7 @@ GameObject:
   - component: {fileID: 1351941630}
   - component: {fileID: 1351941629}
   - component: {fileID: 1351941631}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34986,7 +34833,7 @@ GameObject:
   - component: {fileID: 1353345744}
   - component: {fileID: 1353345743}
   - component: {fileID: 1353345745}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35120,7 +34967,7 @@ GameObject:
   - component: {fileID: 1357581286}
   - component: {fileID: 1357581285}
   - component: {fileID: 1357581287}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (148)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35254,7 +35101,7 @@ GameObject:
   - component: {fileID: 1361279279}
   - component: {fileID: 1361279278}
   - component: {fileID: 1361279280}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (178)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35388,7 +35235,7 @@ GameObject:
   - component: {fileID: 1364701935}
   - component: {fileID: 1364701937}
   - component: {fileID: 1364701936}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (281)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35522,7 +35369,7 @@ GameObject:
   - component: {fileID: 1367865311}
   - component: {fileID: 1367865310}
   - component: {fileID: 1367865312}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (152)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35656,7 +35503,7 @@ GameObject:
   - component: {fileID: 1375766574}
   - component: {fileID: 1375766573}
   - component: {fileID: 1375766575}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (101)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35790,7 +35637,7 @@ GameObject:
   - component: {fileID: 1377210306}
   - component: {fileID: 1377210308}
   - component: {fileID: 1377210307}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (323)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35924,7 +35771,7 @@ GameObject:
   - component: {fileID: 1388555743}
   - component: {fileID: 1388555745}
   - component: {fileID: 1388555744}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (291)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36058,7 +35905,7 @@ GameObject:
   - component: {fileID: 1402822732}
   - component: {fileID: 1402822731}
   - component: {fileID: 1402822730}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Apartment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36192,7 +36039,7 @@ GameObject:
   - component: {fileID: 1405003150}
   - component: {fileID: 1405003149}
   - component: {fileID: 1405003151}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (189)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36326,7 +36173,7 @@ GameObject:
   - component: {fileID: 1407606226}
   - component: {fileID: 1407606225}
   - component: {fileID: 1407606227}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (173)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36460,7 +36307,7 @@ GameObject:
   - component: {fileID: 1411694277}
   - component: {fileID: 1411694276}
   - component: {fileID: 1411694278}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (110)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36594,7 +36441,7 @@ GameObject:
   - component: {fileID: 1414722782}
   - component: {fileID: 1414722781}
   - component: {fileID: 1414722783}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (179)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36728,7 +36575,7 @@ GameObject:
   - component: {fileID: 1431867837}
   - component: {fileID: 1431867836}
   - component: {fileID: 1431867838}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (100)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36862,7 +36709,7 @@ GameObject:
   - component: {fileID: 1434615281}
   - component: {fileID: 1434615280}
   - component: {fileID: 1434615282}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36996,7 +36843,7 @@ GameObject:
   - component: {fileID: 1442963251}
   - component: {fileID: 1442963250}
   - component: {fileID: 1442963249}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Apartment (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37129,8 +36976,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1450557963}
   - component: {fileID: 1450557962}
-  - component: {fileID: 1450557964}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37207,52 +37053,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1616887576}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1450557964
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1450557961}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.18, y: 0.18}
-    newSize: {x: 0.18, y: 0.18}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.18, y: 0.18}
-  m_EdgeRadius: 0
 --- !u!1 &1451129763
 GameObject:
   m_ObjectHideFlags: 0
@@ -37264,7 +37064,7 @@ GameObject:
   - component: {fileID: 1451129765}
   - component: {fileID: 1451129764}
   - component: {fileID: 1451129766}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (203)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37485,7 +37285,7 @@ GameObject:
   - component: {fileID: 1457459793}
   - component: {fileID: 1457459792}
   - component: {fileID: 1457459794}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (211)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37608,93 +37408,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.18, y: 0.18}
   m_EdgeRadius: 0
---- !u!1 &1463644911
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1463644912}
-  - component: {fileID: 1463644913}
-  m_Layer: 0
-  m_Name: START
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1463644912
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1463644911}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.47, y: -1.59, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 467505917}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1463644913
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1463644911}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.27910993, g: 0.82641506, b: 0.35047835, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1466972107
 GameObject:
   m_ObjectHideFlags: 0
@@ -37706,7 +37419,7 @@ GameObject:
   - component: {fileID: 1466972109}
   - component: {fileID: 1466972108}
   - component: {fileID: 1466972110}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (248)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37840,7 +37553,7 @@ GameObject:
   - component: {fileID: 1467294553}
   - component: {fileID: 1467294552}
   - component: {fileID: 1467294554}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (197)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38052,7 +37765,7 @@ GameObject:
   - component: {fileID: 1485345905}
   - component: {fileID: 1485345904}
   - component: {fileID: 1485345906}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38396,7 +38109,7 @@ GameObject:
   - component: {fileID: 1493852456}
   - component: {fileID: 1493852455}
   - component: {fileID: 1493852457}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (269)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38530,7 +38243,7 @@ GameObject:
   - component: {fileID: 1494554563}
   - component: {fileID: 1494554562}
   - component: {fileID: 1494554564}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (85)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38664,7 +38377,7 @@ GameObject:
   - component: {fileID: 1500806060}
   - component: {fileID: 1500806059}
   - component: {fileID: 1500806061}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (246)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38798,7 +38511,7 @@ GameObject:
   - component: {fileID: 1502578107}
   - component: {fileID: 1502578106}
   - component: {fileID: 1502578108}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38932,7 +38645,7 @@ GameObject:
   - component: {fileID: 1514676267}
   - component: {fileID: 1514676266}
   - component: {fileID: 1514676268}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (119)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39055,37 +38768,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.18, y: 0.18}
   m_EdgeRadius: 0
---- !u!1 &1514859192
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1514859193}
-  m_Layer: 0
-  m_Name: Spawner (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1514859193
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514859192}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.49, y: 3.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 413381905}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1516681647
 GameObject:
   m_ObjectHideFlags: 0
@@ -39184,7 +38866,7 @@ GameObject:
   - component: {fileID: 1517048221}
   - component: {fileID: 1517048220}
   - component: {fileID: 1517048222}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (275)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39318,7 +39000,7 @@ GameObject:
   - component: {fileID: 1517736094}
   - component: {fileID: 1517736093}
   - component: {fileID: 1517736095}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (115)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39452,7 +39134,7 @@ GameObject:
   - component: {fileID: 1518819222}
   - component: {fileID: 1518819221}
   - component: {fileID: 1518819223}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (135)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39586,7 +39268,7 @@ GameObject:
   - component: {fileID: 1535887777}
   - component: {fileID: 1535887776}
   - component: {fileID: 1535887775}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Salon (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39720,7 +39402,7 @@ GameObject:
   - component: {fileID: 1544134038}
   - component: {fileID: 1544134037}
   - component: {fileID: 1544134039}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (131)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39854,7 +39536,7 @@ GameObject:
   - component: {fileID: 1545437855}
   - component: {fileID: 1545437854}
   - component: {fileID: 1545437856}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (219)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39988,7 +39670,7 @@ GameObject:
   - component: {fileID: 1546342762}
   - component: {fileID: 1546342764}
   - component: {fileID: 1546342763}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (317)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40122,7 +39804,7 @@ GameObject:
   - component: {fileID: 1555528360}
   - component: {fileID: 1555528359}
   - component: {fileID: 1555528361}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40256,7 +39938,7 @@ GameObject:
   - component: {fileID: 1560230666}
   - component: {fileID: 1560230665}
   - component: {fileID: 1560230667}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (78)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40390,7 +40072,7 @@ GameObject:
   - component: {fileID: 1560820783}
   - component: {fileID: 1560820782}
   - component: {fileID: 1560820784}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40524,7 +40206,7 @@ GameObject:
   - component: {fileID: 1569342454}
   - component: {fileID: 1569342453}
   - component: {fileID: 1569342455}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (240)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40658,7 +40340,7 @@ GameObject:
   - component: {fileID: 1574071804}
   - component: {fileID: 1574071806}
   - component: {fileID: 1574071805}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (284)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40792,7 +40474,7 @@ GameObject:
   - component: {fileID: 1578625761}
   - component: {fileID: 1578625760}
   - component: {fileID: 1578625762}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (164)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40926,7 +40608,7 @@ GameObject:
   - component: {fileID: 1579385240}
   - component: {fileID: 1579385242}
   - component: {fileID: 1579385241}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (293)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41059,8 +40741,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1579752242}
   - component: {fileID: 1579752241}
-  - component: {fileID: 1579752243}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41137,52 +40818,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1616887576}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1579752243
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1579752240}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.18, y: 0.18}
-    newSize: {x: 0.18, y: 0.18}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.18, y: 0.18}
-  m_EdgeRadius: 0
 --- !u!1 &1583587337
 GameObject:
   m_ObjectHideFlags: 0
@@ -41194,7 +40829,7 @@ GameObject:
   - component: {fileID: 1583587339}
   - component: {fileID: 1583587338}
   - component: {fileID: 1583587340}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (108)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41328,7 +40963,7 @@ GameObject:
   - component: {fileID: 1587370849}
   - component: {fileID: 1587370848}
   - component: {fileID: 1587370850}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41462,7 +41097,7 @@ GameObject:
   - component: {fileID: 1589095160}
   - component: {fileID: 1589095159}
   - component: {fileID: 1589095161}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (113)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41596,7 +41231,7 @@ GameObject:
   - component: {fileID: 1592836279}
   - component: {fileID: 1592836278}
   - component: {fileID: 1592836280}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (139)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41730,7 +41365,7 @@ GameObject:
   - component: {fileID: 1596335725}
   - component: {fileID: 1596335724}
   - component: {fileID: 1596335726}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (127)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41864,7 +41499,7 @@ GameObject:
   - component: {fileID: 1597037015}
   - component: {fileID: 1597037014}
   - component: {fileID: 1597037016}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41998,7 +41633,7 @@ GameObject:
   - component: {fileID: 1598589863}
   - component: {fileID: 1598589862}
   - component: {fileID: 1598589864}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (229)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42121,37 +41756,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.18, y: 0.18}
   m_EdgeRadius: 0
---- !u!1 &1606915697
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1606915698}
-  m_Layer: 0
-  m_Name: Spawner (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1606915698
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1606915697}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.51, y: -1.52, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 413381905}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1615817756
 GameObject:
   m_ObjectHideFlags: 0
@@ -42163,7 +41767,7 @@ GameObject:
   - component: {fileID: 1615817758}
   - component: {fileID: 1615817757}
   - component: {fileID: 1615817759}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (195)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42296,8 +41900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1616887576}
   - component: {fileID: 1616887575}
-  - component: {fileID: 1616887577}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42706,52 +42309,6 @@ Transform:
   - {fileID: 1252900652}
   m_Father: {fileID: 467505917}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1616887577
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1616887574}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.18, y: 0.18}
-    newSize: {x: 0.18, y: 0.18}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.18, y: 0.18}
-  m_EdgeRadius: 0
 --- !u!1 &1618884903
 GameObject:
   m_ObjectHideFlags: 0
@@ -42850,7 +42407,7 @@ GameObject:
   - component: {fileID: 1620955453}
   - component: {fileID: 1620955452}
   - component: {fileID: 1620955451}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fire Hydrant (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43071,7 +42628,7 @@ GameObject:
   - component: {fileID: 1637659850}
   - component: {fileID: 1637659849}
   - component: {fileID: 1637659851}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (129)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43205,7 +42762,7 @@ GameObject:
   - component: {fileID: 1640201523}
   - component: {fileID: 1640201522}
   - component: {fileID: 1640201524}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (87)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43426,7 +42983,7 @@ GameObject:
   - component: {fileID: 1657309770}
   - component: {fileID: 1657309772}
   - component: {fileID: 1657309771}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (321)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43560,7 +43117,7 @@ GameObject:
   - component: {fileID: 1659614573}
   - component: {fileID: 1659614572}
   - component: {fileID: 1659614574}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (258)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43694,7 +43251,7 @@ GameObject:
   - component: {fileID: 1664583640}
   - component: {fileID: 1664583639}
   - component: {fileID: 1664583641}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (235)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43828,7 +43385,7 @@ GameObject:
   - component: {fileID: 1665084582}
   - component: {fileID: 1665084581}
   - component: {fileID: 1665084583}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43962,7 +43519,7 @@ GameObject:
   - component: {fileID: 1670233468}
   - component: {fileID: 1670233467}
   - component: {fileID: 1670233469}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (170)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44096,7 +43653,7 @@ GameObject:
   - component: {fileID: 1671993068}
   - component: {fileID: 1671993067}
   - component: {fileID: 1671993069}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44230,7 +43787,7 @@ GameObject:
   - component: {fileID: 1678797957}
   - component: {fileID: 1678797956}
   - component: {fileID: 1678797958}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (218)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44451,7 +44008,7 @@ GameObject:
   - component: {fileID: 1693430643}
   - component: {fileID: 1693430642}
   - component: {fileID: 1693430644}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44585,7 +44142,7 @@ GameObject:
   - component: {fileID: 1698503433}
   - component: {fileID: 1698503432}
   - component: {fileID: 1698503431}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fire Hydrant (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44719,7 +44276,7 @@ GameObject:
   - component: {fileID: 1706644924}
   - component: {fileID: 1706644923}
   - component: {fileID: 1706644925}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (273)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44939,7 +44496,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1708792298}
   - component: {fileID: 1708792297}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Doctor's Office
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45027,7 +44584,7 @@ GameObject:
   - component: {fileID: 1726021330}
   - component: {fileID: 1726021332}
   - component: {fileID: 1726021331}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (316)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45161,7 +44718,7 @@ GameObject:
   - component: {fileID: 1727958531}
   - component: {fileID: 1727958530}
   - component: {fileID: 1727958532}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (155)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45295,7 +44852,7 @@ GameObject:
   - component: {fileID: 1733983037}
   - component: {fileID: 1733983039}
   - component: {fileID: 1733983038}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (299)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45429,7 +44986,7 @@ GameObject:
   - component: {fileID: 1735636729}
   - component: {fileID: 1735636728}
   - component: {fileID: 1735636730}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45563,7 +45120,7 @@ GameObject:
   - component: {fileID: 1748805647}
   - component: {fileID: 1748805646}
   - component: {fileID: 1748805648}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (151)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45697,7 +45254,7 @@ GameObject:
   - component: {fileID: 1761348422}
   - component: {fileID: 1761348421}
   - component: {fileID: 1761348423}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (133)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45831,7 +45388,7 @@ GameObject:
   - component: {fileID: 1764893827}
   - component: {fileID: 1764893826}
   - component: {fileID: 1764893828}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (130)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45964,7 +45521,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1782842822}
   - component: {fileID: 1782842821}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trash Can (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46052,7 +45609,7 @@ GameObject:
   - component: {fileID: 1791980193}
   - component: {fileID: 1791980195}
   - component: {fileID: 1791980194}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (308)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46273,7 +45830,7 @@ GameObject:
   - component: {fileID: 1806700691}
   - component: {fileID: 1806700693}
   - component: {fileID: 1806700692}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (302)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46407,7 +45964,7 @@ GameObject:
   - component: {fileID: 1821801060}
   - component: {fileID: 1821801059}
   - component: {fileID: 1821801061}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (75)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46541,7 +46098,7 @@ GameObject:
   - component: {fileID: 1829270347}
   - component: {fileID: 1829270346}
   - component: {fileID: 1829270348}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46675,7 +46232,7 @@ GameObject:
   - component: {fileID: 1838281755}
   - component: {fileID: 1838281754}
   - component: {fileID: 1838281756}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (187)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46809,7 +46366,7 @@ GameObject:
   - component: {fileID: 1847001994}
   - component: {fileID: 1847001996}
   - component: {fileID: 1847001995}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (297)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46943,7 +46500,7 @@ GameObject:
   - component: {fileID: 1852538026}
   - component: {fileID: 1852538025}
   - component: {fileID: 1852538027}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (134)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47077,7 +46634,7 @@ GameObject:
   - component: {fileID: 1852911473}
   - component: {fileID: 1852911472}
   - component: {fileID: 1852911474}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (150)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47298,7 +46855,7 @@ GameObject:
   - component: {fileID: 1856784507}
   - component: {fileID: 1856784509}
   - component: {fileID: 1856784508}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (289)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47432,7 +46989,7 @@ GameObject:
   - component: {fileID: 1859621222}
   - component: {fileID: 1859621221}
   - component: {fileID: 1859621223}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (168)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47566,7 +47123,7 @@ GameObject:
   - component: {fileID: 1865283521}
   - component: {fileID: 1865283520}
   - component: {fileID: 1865283522}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (121)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47700,7 +47257,7 @@ GameObject:
   - component: {fileID: 1865419309}
   - component: {fileID: 1865419308}
   - component: {fileID: 1865419310}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (272)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47896,7 +47453,7 @@ GameObject:
   - component: {fileID: 1875394919}
   - component: {fileID: 1875394918}
   - component: {fileID: 1875394920}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (250)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48030,7 +47587,7 @@ GameObject:
   - component: {fileID: 1892432897}
   - component: {fileID: 1892432896}
   - component: {fileID: 1892432898}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (274)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48164,7 +47721,7 @@ GameObject:
   - component: {fileID: 1899198454}
   - component: {fileID: 1899198453}
   - component: {fileID: 1899198455}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48298,7 +47855,7 @@ GameObject:
   - component: {fileID: 1922619414}
   - component: {fileID: 1922619413}
   - component: {fileID: 1922619415}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (138)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48432,7 +47989,7 @@ GameObject:
   - component: {fileID: 1924474842}
   - component: {fileID: 1924474841}
   - component: {fileID: 1924474843}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (89)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48653,7 +48210,7 @@ GameObject:
   - component: {fileID: 1942783128}
   - component: {fileID: 1942783127}
   - component: {fileID: 1942783129}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (124)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48787,7 +48344,7 @@ GameObject:
   - component: {fileID: 1956306743}
   - component: {fileID: 1956306742}
   - component: {fileID: 1956306744}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (247)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48921,7 +48478,7 @@ GameObject:
   - component: {fileID: 1959109649}
   - component: {fileID: 1959109648}
   - component: {fileID: 1959109650}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (97)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49055,7 +48612,7 @@ GameObject:
   - component: {fileID: 1965241927}
   - component: {fileID: 1965241926}
   - component: {fileID: 1965241928}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (159)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49188,7 +48745,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1975714352}
   - component: {fileID: 1975714351}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bank (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49259,98 +48816,11 @@ Transform:
   m_GameObject: {fileID: 1975714350}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.00000046193594, w: 1}
-  m_LocalPosition: {x: 1.6689996, y: -1.518001, z: -0.009387227}
+  m_LocalPosition: {x: 1.689, y: -1.493, z: -0.009387227}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 866877968}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1975733144
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1975733146}
-  - component: {fileID: 1975733145}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1975733145
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1975733144}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -1
-  m_Sprite: {fileID: 145176487422733140, guid: e915eaef16d7245cdb0da5a8e29c49e1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.18, y: 0.18}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1975733146
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1975733144}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.074588, y: 6.7151237, z: -0.21036828}
-  m_LocalScale: {x: 220, y: 150, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1990134126
 GameObject:
@@ -49363,7 +48833,7 @@ GameObject:
   - component: {fileID: 1990134128}
   - component: {fileID: 1990134127}
   - component: {fileID: 1990134129}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49497,7 +48967,7 @@ GameObject:
   - component: {fileID: 1994300645}
   - component: {fileID: 1994300644}
   - component: {fileID: 1994300646}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (236)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49631,7 +49101,7 @@ GameObject:
   - component: {fileID: 1998027131}
   - component: {fileID: 1998027130}
   - component: {fileID: 1998027132}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (252)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49764,7 +49234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2004018551}
   - component: {fileID: 2004018550}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bank (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49852,7 +49322,7 @@ GameObject:
   - component: {fileID: 2013794298}
   - component: {fileID: 2013794297}
   - component: {fileID: 2013794299}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49985,7 +49455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2015348158}
   - component: {fileID: 2015348157}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trash Can (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50073,7 +49543,7 @@ GameObject:
   - component: {fileID: 2018649850}
   - component: {fileID: 2018649849}
   - component: {fileID: 2018649851}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (120)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50207,7 +49677,7 @@ GameObject:
   - component: {fileID: 2026130470}
   - component: {fileID: 2026130469}
   - component: {fileID: 2026130471}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (161)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50514,7 +49984,7 @@ GameObject:
   - component: {fileID: 2033870341}
   - component: {fileID: 2033870340}
   - component: {fileID: 2033870342}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (271)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50648,7 +50118,7 @@ GameObject:
   - component: {fileID: 2036993031}
   - component: {fileID: 2036993030}
   - component: {fileID: 2036993032}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (204)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50782,7 +50252,7 @@ GameObject:
   - component: {fileID: 2041616363}
   - component: {fileID: 2041616362}
   - component: {fileID: 2041616364}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (261)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50916,7 +50386,7 @@ GameObject:
   - component: {fileID: 2042947022}
   - component: {fileID: 2042947021}
   - component: {fileID: 2042947023}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (237)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51050,7 +50520,7 @@ GameObject:
   - component: {fileID: 2046939400}
   - component: {fileID: 2046939399}
   - component: {fileID: 2046939401}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (266)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51184,7 +50654,7 @@ GameObject:
   - component: {fileID: 2048988267}
   - component: {fileID: 2048988266}
   - component: {fileID: 2048988268}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (122)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51307,37 +50777,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.18, y: 0.18}
   m_EdgeRadius: 0
---- !u!1 &2067058713
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2067058714}
-  m_Layer: 0
-  m_Name: Spawner
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2067058714
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2067058713}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.34, y: 16.45, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 413381905}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2071401905
 GameObject:
   m_ObjectHideFlags: 0
@@ -51349,7 +50788,7 @@ GameObject:
   - component: {fileID: 2071401906}
   - component: {fileID: 2071401908}
   - component: {fileID: 2071401907}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (288)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51483,7 +50922,7 @@ GameObject:
   - component: {fileID: 2080343053}
   - component: {fileID: 2080343052}
   - component: {fileID: 2080343054}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (105)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51617,7 +51056,7 @@ GameObject:
   - component: {fileID: 2082511360}
   - component: {fileID: 2082511359}
   - component: {fileID: 2082511358}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Salon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51686,7 +51125,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082511357}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -51734,7 +51173,7 @@ Transform:
   m_GameObject: {fileID: 2082511357}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.9420002, y: -0.9129999, z: -0.008145473}
+  m_LocalPosition: {x: 2.961, y: -0.903, z: -0.008145473}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -51751,7 +51190,7 @@ GameObject:
   - component: {fileID: 2089884076}
   - component: {fileID: 2089884075}
   - component: {fileID: 2089884077}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (253)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51885,7 +51324,7 @@ GameObject:
   - component: {fileID: 2106356018}
   - component: {fileID: 2106356017}
   - component: {fileID: 2106356019}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (232)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52018,7 +51457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2109670222}
   - component: {fileID: 2109670221}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Traffic Cone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52106,7 +51545,7 @@ GameObject:
   - component: {fileID: 2112354979}
   - component: {fileID: 2112354978}
   - component: {fileID: 2112354980}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52327,7 +51766,7 @@ GameObject:
   - component: {fileID: 2115837732}
   - component: {fileID: 2115837734}
   - component: {fileID: 2115837733}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (327)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52461,7 +51900,7 @@ GameObject:
   - component: {fileID: 2115954304}
   - component: {fileID: 2115954303}
   - component: {fileID: 2115954305}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52595,7 +52034,7 @@ GameObject:
   - component: {fileID: 2116569933}
   - component: {fileID: 2116569932}
   - component: {fileID: 2116569934}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52729,7 +52168,7 @@ GameObject:
   - component: {fileID: 2117153952}
   - component: {fileID: 2117153951}
   - component: {fileID: 2117153953}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (217)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52863,7 +52302,7 @@ GameObject:
   - component: {fileID: 2128861940}
   - component: {fileID: 2128861939}
   - component: {fileID: 2128861941}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (162)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52997,7 +52436,7 @@ GameObject:
   - component: {fileID: 2132115490}
   - component: {fileID: 2132115489}
   - component: {fileID: 2132115491}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (255)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53131,7 +52570,7 @@ GameObject:
   - component: {fileID: 2142749603}
   - component: {fileID: 2142749602}
   - component: {fileID: 2142749604}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (233)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53265,7 +52704,7 @@ GameObject:
   - component: {fileID: 2144235981}
   - component: {fileID: 2144235980}
   - component: {fileID: 2144235982}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (84)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53399,7 +52838,7 @@ GameObject:
   - component: {fileID: 2144283612}
   - component: {fileID: 2144283611}
   - component: {fileID: 2144283613}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inner City Sidewalk (137)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53527,11 +52966,152 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 434940347125950046, guid: 0e903befbd659614795c2ee645aae15e, type: 3}
   m_PrefabInstance: {fileID: 9005978420039351220}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &8734542258297864
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122126853}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.002865553, y: 0.025789559}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.9140353, y: 0.87964904}
+  m_EdgeRadius: 0
+--- !u!50 &8734542258297865
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122126853}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!1001 &238804619921872656
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 467505917}
+    m_Modifications:
+    - target: {fileID: 3938515372515600847, guid: 94d7faf4b526ec24dbcebc9b39b072bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3938515372515600847, guid: 94d7faf4b526ec24dbcebc9b39b072bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3938515372515600847, guid: 94d7faf4b526ec24dbcebc9b39b072bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3938515372515600847, guid: 94d7faf4b526ec24dbcebc9b39b072bf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3938515372515600847, guid: 94d7faf4b526ec24dbcebc9b39b072bf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3938515372515600847, guid: 94d7faf4b526ec24dbcebc9b39b072bf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3938515372515600847, guid: 94d7faf4b526ec24dbcebc9b39b072bf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3938515372515600847, guid: 94d7faf4b526ec24dbcebc9b39b072bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3938515372515600847, guid: 94d7faf4b526ec24dbcebc9b39b072bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3938515372515600847, guid: 94d7faf4b526ec24dbcebc9b39b072bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282703889179099059, guid: 94d7faf4b526ec24dbcebc9b39b072bf, type: 3}
+      propertyPath: m_Name
+      value: SpawnPoints
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 94d7faf4b526ec24dbcebc9b39b072bf, type: 3}
 --- !u!4 &282711546125404357 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1259101305738734747, guid: 228e8cc5ee5dd324782e77fe04c181e7, type: 3}
   m_PrefabInstance: {fileID: 2614715128827964933}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &506772064407139741 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7058438735578205040, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+  m_PrefabInstance: {fileID: 8687778456303122137}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &895876202086254494
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53659,6 +53239,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 228e8cc5ee5dd324782e77fe04c181e7, type: 3}
+--- !u!114 &5346893470273429835 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5093494244594527714, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+  m_PrefabInstance: {fileID: 8687778456303122137}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7564285195645659172
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53823,6 +53414,107 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9030519427189963499, guid: 68a1efb9831d5c24e85d8d347a3db1e0, type: 3}
   m_PrefabInstance: {fileID: 8601283378166227705}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8687778456303122137
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2476976428551933340, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476976428551933340, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476976428551933340, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476976428551933340, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476976428551933340, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476976428551933340, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476976428551933340, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476976428551933340, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476976428551933340, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476976428551933340, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476976428551933340, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476976428551933340, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476976428551933340, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476976428551933340, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476976428551933340, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476976428551933340, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476976428551933340, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476976428551933340, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476976428551933340, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476976428551933340, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083372271815367702, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_Name
+      value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510952290729962717, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 844864665}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7046abada40b6884d87fa15fbadf882e, type: 3}
 --- !u!1001 &9005978420039351220
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53833,7 +53525,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 434940347125950046, guid: 0e903befbd659614795c2ee645aae15e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.51
+      value: 5.49
       objectReference: {fileID: 0}
     - target: {fileID: 434940347125950046, guid: 0e903befbd659614795c2ee645aae15e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -53878,14 +53570,20 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2199749917430148178, guid: 0e903befbd659614795c2ee645aae15e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8734542258297865}
+    - targetCorrespondingSourceObject: {fileID: 2199749917430148178, guid: 0e903befbd659614795c2ee645aae15e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8734542258297864}
   m_SourcePrefab: {fileID: 100100000, guid: 0e903befbd659614795c2ee645aae15e, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 619394802}
+  - {fileID: 8687778456303122137}
   - {fileID: 467505917}
   - {fileID: 866877968}
-  - {fileID: 524613960}
-  - {fileID: 1975733146}
+  - {fileID: 276092307}
