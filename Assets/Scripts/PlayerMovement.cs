@@ -102,6 +102,6 @@ public class GridPlayerMovement : MonoBehaviour
         if (gameOverTriggered) return;
         gameOverTriggered = true;
         Debug.Log("Player stepped on hair. Loading GameOver scene...");
-        SceneManager.LoadScene("GameOver");
+       // SceneManager.LoadScene("GameOver");
     }
 }
