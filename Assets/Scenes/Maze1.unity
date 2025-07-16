@@ -46058,7 +46058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d4bc7a96b36f3540b042cb6481b0a86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 60
+  timeRemaining: 5
   timerText: {fileID: 601925621}
   gameOverPanel: {fileID: 1799305627}
 --- !u!4 &1736612309
