@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3138785202627897880}
   - component: {fileID: 2069542713982202523}
+  - component: {fileID: -4373735755181491545}
   m_Layer: 0
   m_Name: CollectableManger
   m_TagString: Untagged
@@ -48,3 +49,17 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   requiredItemCount: 2
+--- !u!114 &-4373735755181491545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9132420372231786887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab068af42b764424c9b2ac9ab3c4d8f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerCircle: {fileID: 0}
+  duration: 150
