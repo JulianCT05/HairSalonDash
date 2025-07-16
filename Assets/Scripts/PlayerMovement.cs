@@ -5,11 +5,7 @@ public class GridPlayerMovement : MonoBehaviour
     public float moveTime = 0.2f;
     public LayerMask obstacleLayer;
     public int moveCount = 0;
-    public GameObject trailPrefab; // Assign your trail prefab here
-
-    // if you wanted to limit the steps change [public int moveCount = 0;] to:
-    // public int maxSteps = 10; // Set in Inspector or via code
-    // and add:
+    public GameObject trailPrefab; 
     // public int MoveCount { get; private set; } = 0;
 
     private bool isMoving = false;
@@ -46,11 +42,11 @@ public class GridPlayerMovement : MonoBehaviour
                 }
             }
         }
-        // part 2 for adding the step counter limit, add this:
+        
         // else if (MoveCount >= maxSteps)
         // {
         // Debug.Log("Step limit reached!");
-        // Optionally trigger loss state or UI here
+        //  trigger loss state or UI here
         // }
     }
 
@@ -69,7 +65,6 @@ public class GridPlayerMovement : MonoBehaviour
 
         transform.position = newPosition;
 
-        // ✅ Spawn trail at the previous position (rounded to grid)
         if (trailPrefab != null)
         {
             Vector2 roundedPos = new Vector2(start.x, start.y);
@@ -87,6 +82,14 @@ public class GridPlayerMovement : MonoBehaviour
     {
         return Physics2D.OverlapCircle(position, 0.1f, obstacleLayer) != null;
         
+    }
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if ( collision.gameObject.CompareTag("Collectable") )
+        {
+            Destroy(collision.gameObject);
+        }
     }
 }
 

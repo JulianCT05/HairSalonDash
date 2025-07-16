@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4988579802512797577}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67,6 +67,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 64
+  moveCount: 0
   trailPrefab: {fileID: 5154731393756323895, guid: 443c923d0e6602b4a914e348e78eed44, type: 3}
 --- !u!1 &5995653848945250129
 GameObject:
