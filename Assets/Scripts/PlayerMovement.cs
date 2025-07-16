@@ -4,7 +4,13 @@ public class GridPlayerMovement : MonoBehaviour
 {
     public float moveTime = 0.2f;
     public LayerMask obstacleLayer;
+    public int moveCount = 0;
     public GameObject trailPrefab; // Assign your trail prefab here
+
+    // if you wanted to limit the steps change [public int moveCount = 0;] to:
+    // public int maxSteps = 10; // Set in Inspector or via code
+    // and add:
+    // public int MoveCount { get; private set; } = 0;
 
     private bool isMoving = false;
     private Vector2 targetPosition;
@@ -40,6 +46,12 @@ public class GridPlayerMovement : MonoBehaviour
                 }
             }
         }
+        // part 2 for adding the step counter limit, add this:
+        // else if (MoveCount >= maxSteps)
+        // {
+        // Debug.Log("Step limit reached!");
+        // Optionally trigger loss state or UI here
+        // }
     }
 
     System.Collections.IEnumerator MoveToPosition(Vector2 newPosition)
@@ -63,14 +75,18 @@ public class GridPlayerMovement : MonoBehaviour
             Vector2 roundedPos = new Vector2(start.x, start.y);
             Instantiate(trailPrefab, roundedPos, Quaternion.identity);
         }
+        moveCount++;
+        Debug.Log("Moves made: " + moveCount);
 
         targetPosition = newPosition;
         isMoving = false;
+
     }
 
     private bool IsBlocked(Vector2 position)
     {
         return Physics2D.OverlapCircle(position, 0.1f, obstacleLayer) != null;
+        
     }
 }
 
