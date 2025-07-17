@@ -97,13 +97,34 @@ public class GridPlayerMovement : MonoBehaviour
         }
     }
 
- 
-    private void TriggerGameOver() 
+
+    private void TriggerGameOver()
     {
         if (gameOverTriggered) return;
         gameOverTriggered = true;
-        Debug.Log("Player stepped on hair. Loading GameOver scene...");
-        m_Timer.GameOver();
-        //SceneManager.LoadScene("GameOver");
+
+        Debug.Log("Player stepped on hair hazard.");
+
+        
+        if (m_Timer != null)
+        {
+            m_Timer.GameOver();
+        }
+        else
+        {
+
+            CountdownTimer timer = FindFirstObjectByType<CountdownTimer>();
+            if (timer != null)
+            {
+                timer.GameOver();
+                return;
+            }
+            else
+            {
+                Debug.LogWarning("No CountdownTimer found; loading GameOver scene as fallback.");
+                SceneManager.LoadScene("GameOver");
+            }
+        }
     }
+
 }
