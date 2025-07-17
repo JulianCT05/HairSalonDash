@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class GridPlayerMovement : MonoBehaviour
 {
+    public CountdownTimer m_Timer;
     public float moveTime = 0.2f;
     public LayerMask obstacleLayer;
     public int moveCount = 0;
@@ -102,6 +103,7 @@ public class GridPlayerMovement : MonoBehaviour
         if (gameOverTriggered) return;
         gameOverTriggered = true;
         Debug.Log("Player stepped on hair. Loading GameOver scene...");
-        SceneManager.LoadScene("GameOver");
+        m_Timer.GameOver();
+        //SceneManager.LoadScene("GameOver");
     }
 }
