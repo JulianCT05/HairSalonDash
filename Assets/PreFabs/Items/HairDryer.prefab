@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 8416790790440344226, guid: b06cdcef142994db395f6d2601806a81, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -182,6 +182,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: HairDryer
   itemSprite: {fileID: 8416790790440344226, guid: b06cdcef142994db395f6d2601806a81, type: 3}
+  collectSound: {fileID: 8300000, guid: 4b95592c6fb993f49ba4e7ecaafe2f02, type: 3}
+  soundVolume: 0.5
 --- !u!50 &-7107691964291448985
 Rigidbody2D:
   serializedVersion: 5
