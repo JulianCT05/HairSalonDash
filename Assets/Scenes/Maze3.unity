@@ -17728,9 +17728,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 675101991}
     - target: {fileID: 149327338049772365, guid: f1671e1232a2e97419c31e4adba78339, type: 3}
+      propertyPath: soundVolume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 149327338049772365, guid: f1671e1232a2e97419c31e4adba78339, type: 3}
       propertyPath: gameOverPanel
       value: 
       objectReference: {fileID: 675101988}
+    - target: {fileID: 149327338049772365, guid: f1671e1232a2e97419c31e4adba78339, type: 3}
+      propertyPath: timeRemaining
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2205522423215750935, guid: f1671e1232a2e97419c31e4adba78339, type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6241534762077317827, guid: f1671e1232a2e97419c31e4adba78339, type: 3}
       propertyPath: m_LocalPosition.x
       value: 219.40001
