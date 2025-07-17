@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class ExitPortal : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
@@ -9,7 +9,7 @@ public class ExitPortal : MonoBehaviour
             if (CollectableManager.Instance.HasRequiredItems())
             {
                 CollectableManager.Instance.ResetCollectables();
-                RandomLevelLoader.Instance.LoadRandomLevel();
+                SceneManager.LoadScene("Completed!");
             }
             else
             {

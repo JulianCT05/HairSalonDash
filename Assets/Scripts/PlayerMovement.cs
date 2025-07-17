@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class GridPlayerMovement : MonoBehaviour
 {
+    public CountdownTimer m_Timer;
     public float moveTime = 0.2f;
     public LayerMask obstacleLayer;
     public int moveCount = 0;
@@ -96,12 +97,34 @@ public class GridPlayerMovement : MonoBehaviour
         }
     }
 
- 
-    private void TriggerGameOver() 
+
+    private void TriggerGameOver()
     {
         if (gameOverTriggered) return;
         gameOverTriggered = true;
-        Debug.Log("Player stepped on hair. Loading GameOver scene...");
-        SceneManager.LoadScene("GameOver");
+
+        Debug.Log("Player stepped on hair hazard.");
+
+        
+        if (m_Timer != null)
+        {
+            m_Timer.GameOver();
+        }
+        else
+        {
+
+            CountdownTimer timer = FindFirstObjectByType<CountdownTimer>();
+            if (timer != null)
+            {
+                timer.GameOver();
+                return;
+            }
+            else
+            {
+                Debug.LogWarning("No CountdownTimer found; loading GameOver scene as fallback.");
+                SceneManager.LoadScene("GameOver");
+            }
+        }
     }
+
 }

@@ -46,7 +46,7 @@ public class CountdownTimer : MonoBehaviour
         }
     }
 
-    void UpdateTimerDisplay()
+    public void UpdateTimerDisplay()
     {
         int minutes = Mathf.FloorToInt(timeRemaining / 60f);
         int seconds = Mathf.FloorToInt(timeRemaining % 60f);
@@ -54,7 +54,7 @@ public class CountdownTimer : MonoBehaviour
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 
-    void GameOver()
+    public void GameOver()
     {
         isGameOver = true;
         gameOverPanel.SetActive(true);
