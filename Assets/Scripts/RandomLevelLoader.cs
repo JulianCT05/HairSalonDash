@@ -43,4 +43,9 @@ public class RandomLevelLoader : MonoBehaviour
     {
         unplayedLevels = new List<string>(levelSceneNames);
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
