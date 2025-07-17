@@ -51,6 +51,7 @@ MonoBehaviour:
   gameOverPanel: {fileID: 0}
   countdownAudio: {fileID: 2205522423215750935}
   gameOverAudio: {fileID: 8487357729125316453}
+  soundVolume: 0.3
 --- !u!82 &2205522423215750935
 AudioSource:
   m_ObjectHideFlags: 0

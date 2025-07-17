@@ -9,13 +9,14 @@ public class CountdownTimer : MonoBehaviour
     public GameObject gameOverPanel; // Assign your Game Over UI panel
     public AudioSource countdownAudio;//sound 1
     public AudioSource gameOverAudio;//sound 2
-
+    public float soundVolume = 1f;
 
     private bool isGameOver = false;
 
     void Start()
     {
         gameOverPanel.SetActive(false);
+        countdownAudio.volume = soundVolume;
         countdownAudio.Play(); // Start ticking sound
         UpdateTimerDisplay();
 
@@ -67,6 +68,7 @@ public class CountdownTimer : MonoBehaviour
     public void RestartGame()
     {
         Time.timeScale = 1f;
+        CollectableManager.Instance?.ResetCollectables();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

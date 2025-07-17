@@ -55534,6 +55534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4334102388218226356, guid: 7f077aaa000e9574d84c807f001f6226, type: 3}
+      propertyPath: 'slots.Array.data[0]'
+      value: 
+      objectReference: {fileID: 7058438734338473787}
     - target: {fileID: 5050124105001602325, guid: 7f077aaa000e9574d84c807f001f6226, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
