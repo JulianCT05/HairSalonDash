@@ -68,6 +68,7 @@ public class CountdownTimer : MonoBehaviour
     public void RestartGame()
     {
         Time.timeScale = 1f;
+        CollectableManager.Instance?.ResetCollectables();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

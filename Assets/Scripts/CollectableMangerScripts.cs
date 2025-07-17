@@ -1,19 +1,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CollectableManager : MonoBehaviour
 {
     public static CollectableManager Instance;
 
-    [Header("UI Settings")]
-    public Image[] collectedItemSlots; // Assign in Inspector
-    private List<Sprite> collectedSprites = new List<Sprite>();
+    [Header("Scene UI Slots (auto-rebound)")]
+    [SerializeField] private Image[] collectedItemSlots; 
+    private readonly List<Sprite> collectedSprites = new List<Sprite>();
 
     [Header("Required Collectables")]
     public int requiredItemCount = 2;
 
-    private HashSet<string> collectedItems = new HashSet<string>();
+    private readonly HashSet<string> collectedItems = new HashSet<string>();
 
     void Awake()
     {
@@ -21,6 +22,8 @@ public class CollectableManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+
+            SceneManager.sceneLoaded += OnSceneLoaded;
         }
         else
         {
@@ -28,8 +31,17 @@ public class CollectableManager : MonoBehaviour
         }
     }
 
+    void OnDestroy()
+    {
+        if (Instance == this)
+            SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+   
     public void CollectItem(string itemName, Sprite itemSprite)
     {
+        if (string.IsNullOrEmpty(itemName)) itemName = $"Item_{collectedItems.Count}";
+
         if (!collectedItems.Contains(itemName))
         {
             collectedItems.Add(itemName);
@@ -37,28 +49,59 @@ public class CollectableManager : MonoBehaviour
             UpdateUI();
             Debug.Log("Collected: " + itemName);
         }
+        else
+        {
+            Debug.Log("Duplicate collectable ignored: " + itemName);
+        }
     }
 
-    void UpdateUI()
+    
+    public void RegisterUISlots(Image[] newSlots)
     {
+        collectedItemSlots = newSlots;
+        UpdateUI(); 
+    }
+
+    
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+      
+        var binder = FindFirstObjectByType<CollectableUISlotsBinder>();
+        if (binder != null)
+        {
+            RegisterUISlots(binder.slots);
+        }
+        else
+        {
+          
+            UpdateUI();
+        }
+    }
+
+    private void UpdateUI()
+    {
+        if (collectedItemSlots == null || collectedItemSlots.Length == 0)
+            return;
+
         for (int i = 0; i < collectedItemSlots.Length; i++)
         {
+            Image img = collectedItemSlots[i];
+            if (!img) continue; // destroyed scene ref
+
             if (i < collectedSprites.Count)
             {
-                collectedItemSlots[i].sprite = collectedSprites[i];
-                collectedItemSlots[i].enabled = true;
+                img.sprite = collectedSprites[i];
+                img.enabled = true;
             }
             else
             {
-                collectedItemSlots[i].enabled = false;
+                img.enabled = false;
             }
         }
     }
 
-    public bool HasRequiredItems()
-    {
-        return collectedItems.Count >= requiredItemCount;
-    }
+
+    public bool HasRequiredItems() => collectedItems.Count >= requiredItemCount;
 
     public void ResetCollectables()
     {
@@ -67,5 +110,3 @@ public class CollectableManager : MonoBehaviour
         UpdateUI();
     }
 }
-
-
